@@ -417,7 +417,7 @@ def run(cfg):
         os.makedirs(output_dir)
 
     save_visualization(cfg, input_data, our_data, output_dir)
-    visualize(output_dir, offline=False)
+    visualize(output_dir, offline=True)
 
 
 
