@@ -226,7 +226,7 @@ class Vis_base(Vis_Scannet):
         '''
         Visualize a 3D scene.
         '''
-
+        print(f'visualizing... save_path: {save_path}')
         render_window_interactor = vtk.vtkRenderWindowInteractor()
         render_window = self.set_render_window(centroid, only_points)
         render_window_interactor.SetRenderWindow(render_window)
