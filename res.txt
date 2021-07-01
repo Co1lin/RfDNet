@@ -1,0 +1,54 @@
+# 20210701 AM 00:16
+0 box 0.3464324110516789
+0 mesh 0.003987240829346092
+1 box 0.48944947426032537
+1 mesh 0.001456487437795849
+2 box 0.13291553018586735
+2 mesh 0.0202020202020202
+3 box 0.31431784314830524
+3 mesh 0.18812446301006003
+4 box 0.11359790801415168
+4 mesh 0.09721492380451918
+5 box 0.17776025098429468
+5 mesh 0.16089828052673705
+6 box 0.01652892561983471
+6 mesh 0.008522727272727272
+7 box 0.14285714285714288
+7 mesh 0.007526628149196243
+eval table Average Precision: 0.346432
+eval chair Average Precision: 0.489449
+eval bookshelf Average Precision: 0.132916
+eval sofa Average Precision: 0.314318
+eval trash_bin Average Precision: 0.113598
+eval cabinet Average Precision: 0.177760
+eval display Average Precision: 0.016529
+eval bathtub Average Precision: 0.142857
+eval mAP: 0.216732
+eval table Recall: 0.573237
+eval chair Recall: 0.652333
+eval bookshelf Recall: 0.278302
+eval sofa Recall: 0.539823
+eval trash_bin Recall: 0.237069
+eval cabinet Recall: 0.465385
+eval display Recall: 0.078534
+eval bathtub Recall: 0.291667
+eval AR: 0.389544
+eval table Average Precision_mesh: 0.003987
+eval chair Average Precision_mesh: 0.001456
+eval bookshelf Average Precision_mesh: 0.020202
+eval sofa Average Precision_mesh: 0.188124
+eval trash_bin Average Precision_mesh: 0.097215
+eval cabinet Average Precision_mesh: 0.160898
+eval display Average Precision_mesh: 0.008523
+eval bathtub Average Precision_mesh: 0.007527
+eval mAP_mesh: 0.060992
+eval table Recall_mesh: 0.027125
+eval chair Recall_mesh: 0.025618
+eval bookshelf Recall_mesh: 0.051887
+eval sofa Recall_mesh: 0.300885
+eval trash_bin Recall_mesh: 0.129310
+eval cabinet Recall_mesh: 0.430769
+eval display Recall_mesh: 0.068063
+eval bathtub Recall_mesh: 0.158333
+eval AR_mesh: 0.148999
+Testing finished
