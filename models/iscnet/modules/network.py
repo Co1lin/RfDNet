@@ -233,7 +233,7 @@ class ISCNet(BaseNetwork):
                 pc_in_box, inds = extract_pc_in_box3d(scene_scan, larger_box)
                 if len(pc_in_box) < 5:
                     continue
-
+                pc_in_box = pc_in_box[:50000, :]
                 pc_in_box_matrix = np.zeros((max_pc_in_box, 3))
                 pc_in_box_mask = np.zeros((max_pc_in_box,), dtype=np.uint8)
                 pc_in_box_matrix[:pc_in_box.shape[0], :] = pc_in_box
